@@ -17,11 +17,12 @@ app.add_middleware(
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 FREE_FALLBACK_MODELS = [
-    "deepseek/deepseek-chat-v3-0324:free",
-    "qwen/qwen3-235b-a22b:free",
-    "google/gemma-3-27b-it:free",
-    "meta-llama/llama-4-maverick:free",
-    "mistralai/mistral-small-3.1-24b-instruct:free",
+    "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "openrouter/owl-alpha",
+    "deepseek/deepseek-v4-flash:free",
+    "google/gemma-4-31b-it:free",
 ]
 
 
