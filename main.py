@@ -20,12 +20,10 @@ DEFAULT_MODEL_ID = os.getenv("OPENROUTER_DEFAULT_MODEL_ID", "google/gemini-2.5-f
 
 # Keep only chat-capable free models here for fallback
 FREE_FALLBACK_MODELS = [
-    "deepseek/deepseek-v4-flash:free",
-    "deepseek/deepseek-chat-v3-0324:free",
-    "qwen/qwen3-235b-a22b:free",
-    "google/gemma-4-31b-it:free",
-    "google/gemma-4-26b-a4b-it:free",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "openai/gpt-oss-20b:free",
+    "baidu/cobuddy:free",
+    "openrouter/owl-alpha",
+    "inclusionai/ling-2.6-flash",    
 ]
 
 app = FastAPI(title=APP_NAME)
